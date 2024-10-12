@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dave"
+version = "0.1.0"
+description = "Best Diving App"
+authors = ["Nadav Edri <nadav052433@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.35.39"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
